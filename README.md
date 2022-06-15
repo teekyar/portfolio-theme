@@ -1,2 +1,2 @@
 # portfolio-theme
-HTML/CSS Example Portfoli Theme
+HTML/CSS Example Portfolio Theme
