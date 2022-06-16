@@ -43,11 +43,86 @@ table {
 }
 /* Styles */
 header{
+	height:100%;
     background-color: #595252;
-    text-decoration: none;
+	padding: 1%;
 }
 .top-menu{
-    text-decoration: none;
     text-align: center;
-    color: white;
+}
+.top-menu a{
+	text-decoration: none;
+	color: white;
+}
+.top-menu-space{
+	padding-right: 1%;
+}
+section{
+	background: url('../img/bg.jpg') no-repeat center center fixed;;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height:900px;
+}
+.center{
+	padding: 20%;
+	text-align: center;
+	color: black;
+}
+.section{
+	background-color: #fff;
+	box-shadow: 2px 3px 10px 5px #595252;
+	border-radius: 10px;
+}
+section h1{
+	font-size: 400%;
+}
+section p{
+	padding-top: 1%;
+	font-size: 150%;
+}
+footer{
+	height:100%;
+	text-align: center;
+    background-color: #595252;
+}
+footer p{
+	padding-top: 1%;
+	color: white;
+}
+footer div{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.fa{
+	font-size: 200%;
+	color: white;
+}
+a:link,a:hover{
+	color: rgb(209, 206, 206);
+}
+a:active{
+	color: rgba(209, 206, 206, 0.233);
+}
+input,textarea{
+	margin-top: 3%;
+}
+input[type=submit]{
+	margin-bottom: 1%;
+}
+.s1{
+	width: 250px;
+	height: 250px;
+}
+.s2{
+	height: 100px;
+	width: 500px;
+}
+table,td,th,tr{
+	border: black 1px solid;
+	padding: 4px;
+}
+.table-center{
+	padding: 3%;
 }
